@@ -56,7 +56,6 @@
       # Packages used in various plugins and modules (launcher, screenshots, etc)
       home.packages = with pkgs; [
         wlogout
-        swaylock-effects
         hyprshot
       ];
     };
