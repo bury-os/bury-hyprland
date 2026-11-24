@@ -57,6 +57,7 @@
       home.packages = with pkgs; [
         rofi
         wlogout
+        swaylock-effects
         hyprshot
       ];
     };
