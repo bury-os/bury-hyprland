@@ -4,10 +4,10 @@ local enter   = "code:36" -- The ENTER key
 ---
 
 --- APPS
+local menu         = os.getenv("BURYOS_LAUNCH_APP")
+local taskSwitcher = os.getenv("BURYOS_LAUNCH_TASK")
 local fileManager  = "thunar"
-local menu         = "rofi -show drun"
 local cliphist     = "cliphist list | rofi -dmenu | cliphist decode | wl-copy"
-local taskSwitcher = "rofi -show window"
 local logout       = "wlogout"
 local lock         = "swaylock"
 ---
